@@ -1,13 +1,14 @@
 {
-  "name": "devp2p-dpt",
+  "name": "@vaporyjs/devp2p-dpt",
+  "namespace": "vaporyjs",
   "version": "2.0.0",
-  "description": "An implemention of ethereum's DHT",
+  "description": "An implemention of vapory's DHT",
   "keywords": [
-    "ethereum"
+    "vapory"
   ],
-  "homepage": "https://github.com/ethereumjs/node-devp2p-dpt",
+  "homepage": "https://github.com/vaporyjs/node-devp2p-dpt",
   "bugs": {
-    "url": "https://github.com/ethereumjs/node-devp2p-dpt/issues"
+    "url": "https://github.com/vaporyjs/node-devp2p-dpt/issues"
   },
   "license": "MPL-2.0",
   "author": "Martin Becze <mb@ethdev.com>",
@@ -20,7 +21,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/node-devp2p-dpt.git"
+    "url": "https://github.com/vaporyjs/node-devp2p-dpt.git"
   },
   "scripts": {
     "coverage": "nyc tape test/*.js",
@@ -32,12 +33,12 @@
   "dependencies": {
     "async": "^2.0.0-rc.4",
     "debug": "^2.2.0",
-    "ethereumjs-util": "^4.4.0",
+    "vaporyjs-util": "^5.1.5",
     "inherits": "^2.0.1",
     "ip": "^1.1.2",
     "k-bucket": "^2.0.0",
     "randombytes": "^2.0.3",
-    "rlp": "^2.0.0",
+    "@vaporyjs/rlp": "^2.0.0",
     "secp256k1": "^3.1.0"
   },
   "devDependencies": {
